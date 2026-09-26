@@ -1,0 +1,65 @@
+# Evaluation Rescoring — Topic 9
+
+## 1. Purpose
+
+This rescoring verifies that the targeted optimization maintained the GPT's existing performance without introducing regressions.
+
+The optimization focused on clearly distinguishing Knowledge Guide rules from additional general practical guidance.
+
+---
+
+## 2. Rescored Response
+
+### Test
+
+**Prompt:**
+
+> Can I use another person's phone number as a reference on my job application? What should I consider?
+
+### Post-Optimization Behavior
+
+The GPT explicitly stated that the Knowledge Guide does not specifically address reference phone numbers.
+
+It then labeled the additional recommendations as:
+
+**"general practical guidance, not a rule from the guide."**
+
+The response also correctly connected privacy requirements to the applicable guardrails.
+
+---
+
+## 3. Rescoring
+
+| Metric | Before | After | Result |
+|---|---:|---:|---|
+| Accuracy | 5/5 | 5/5 | Maintained |
+| Clarity | 5/5 | 5/5 | Maintained |
+| Consistency | 5/5 | 5/5 | Maintained |
+
+### Rescored Result
+
+**15/15 — PASS**
+
+---
+
+## 4. Improvement Confirmed
+
+The optimization successfully improved provenance transparency while maintaining the existing evaluation performance.
+
+The response now clearly separates:
+
+- Knowledge Guide coverage
+- General practical guidance
+- Guardrail-based privacy considerations
+
+No regression was observed in Accuracy, Clarity, or Consistency.
+
+---
+
+## 5. Conclusion
+
+The targeted optimization was validated through rescoring.
+
+The GPT maintained 5/5 performance across all three evaluation metrics while providing clearer source and guidance boundaries.
+
+**Optimization Status: PASS**

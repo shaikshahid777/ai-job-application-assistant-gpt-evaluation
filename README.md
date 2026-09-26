@@ -7,7 +7,7 @@
 [![Clarity](https://img.shields.io/badge/Clarity-5%2F5-brightgreen?style=for-the-badge)](./evaluation_sheet.md)
 [![Consistency](https://img.shields.io/badge/Consistency-5%2F5-brightgreen?style=for-the-badge)](./evaluation_sheet.md)
 
-[![Topic](https://img.shields.io/badge/Topic%209-Performance%20Evaluation%20%26%20Optimization-blue?style=for-the-badge)](https://github.com/shaikshahid777/ai-job-application-assistant-gpt-evaluation)
+[![Topic 9](https://img.shields.io/badge/Topic%209-Performance%20Evaluation%20%26%20Optimization-blue?style=for-the-badge)](https://github.com/shaikshahid777/ai-job-application-assistant-gpt-evaluation)
 [![Loom](https://img.shields.io/badge/🎥%20Loom-Watch%20Demo-625df5?style=for-the-badge)](https://www.loom.com/share/f617a54c269e4a01ab765f749e6a7cfe)
 [![Custom GPT](https://img.shields.io/badge/🤖%20Custom%20GPT-Open-111827?style=for-the-badge)](https://chatgpt.com/g/g-6ab32eeab8c88191915986ea8efad18d-ai-job-application-assistant)
 
@@ -17,17 +17,32 @@
 
 ---
 
+## 🚀 Quick Access
+
+<p align="center">
+
+<a href="./evaluation_sheet.md"><img src="https://img.shields.io/badge/📊%20Evaluation%20Sheet-Open-2563eb?style=for-the-badge" alt="Evaluation Sheet"></a>
+<a href="./optimization_summary.md"><img src="https://img.shields.io/badge/⚙️%20Optimization-Open-7c3aed?style=for-the-badge" alt="Optimization"></a>
+<a href="./evaluation_rescoring.md"><img src="https://img.shields.io/badge/🔄%20Re--Scoring-Open-059669?style=for-the-badge" alt="Re-scoring"></a>
+<a href="./Topic_9_Performance_Evaluation_Optimization_Assessment.pdf"><img src="https://img.shields.io/badge/📄%20Assessment%20PDF-View-dc2626?style=for-the-badge" alt="Assessment PDF"></a>
+
+</p>
+
+<p align="center">
+
+<a href="https://chatgpt.com/g/g-6ab32eeab8c88191915986ea8efad18d-ai-job-application-assistant"><img src="https://img.shields.io/badge/🤖%20Custom%20GPT-Open-111827?style=for-the-badge" alt="Custom GPT"></a>
+<a href="https://www.loom.com/share/f617a54c269e4a01ab765f749e6a7cfe"><img src="https://img.shields.io/badge/🎥%20Loom-Watch%20Demo-625df5?style=for-the-badge" alt="Loom"></a>
+<a href="https://github.com/shaikshahid777/ai-job-application-assistant-gpt-evaluation"><img src="https://img.shields.io/badge/💻%20Repository-Open-0f172a?style=for-the-badge" alt="Repository"></a>
+
+</p>
+
+---
+
 ## 🎯 Project Overview
 
 This repository documents **Topic 9 — Performance Evaluation & Optimization** for the **AI Job Application Assistant** Custom GPT.
 
-The evaluation measures three core dimensions:
-
-- 🎯 **Accuracy**
-- 🧠 **Clarity**
-- 🔁 **Consistency**
-
-A structured 1–5 scoring rubric was applied to **10 representative GPT responses**, followed by targeted optimization and a before/after re-scoring check.
+The evaluation measures **Accuracy, Clarity, and Consistency** using a structured 1–5 scoring rubric across **10 representative GPT responses**.
 
 > **Final result: 10/10 responses passed, with 5/5 across all three evaluation metrics.**
 
@@ -41,12 +56,6 @@ A structured 1–5 scoring rubric was applied to **10 representative GPT respons
 | 🧠 Clarity | **5.0 / 5** | ✅ PASS |
 | 🔁 Consistency | **5.0 / 5** | ✅ PASS |
 | ⭐ Overall | **5.0 / 5** | ✅ PASS |
-
-### Test Coverage
-
-**10 / 10 responses passed**
-
-The evaluation included skill matching, Knowledge Guide boundaries, job-description analysis, truthful resume wording, missing evidence, incomplete certifications, privacy-sensitive references, coursework-vs-professional experience, and red-team fabrication attempts.
 
 ---
 
@@ -62,22 +71,16 @@ flowchart LR
     D --> E
     E --> F{Weak Area?}
     F -->|No functional weakness| G[Targeted Quality Optimization]
-    F -->|If identified| H[Targeted Fix]
-    G --> I[Re-score]
-    H --> I
-    I --> J[Regression Check]
-    J --> K[Final Validation]
+    G --> H[Re-score]
+    H --> I[Regression Check]
+    I --> J[Final Validation]
 ```
 
 ---
 
 ## ⚙️ Optimization Applied
 
-No functional failure was invented simply to satisfy the assessment.
-
-Instead, a genuine quality improvement was identified:
-
-**Knowledge Guide provenance clarity**
+A genuine quality improvement was identified: **Knowledge Guide provenance clarity**.
 
 The instructions were refined so the GPT:
 1. States when a topic is not explicitly covered by the Knowledge Guide.
@@ -85,13 +88,11 @@ The instructions were refined so the GPT:
 3. Labels additional advice as **general practical guidance**.
 4. Keeps documented rules and additional guidance clearly separated.
 
-This optimization preserves the GPT's existing safety, truthfulness, and application-analysis behavior while improving transparency.
+No artificial failure or weak score was introduced.
 
 ---
 
 ## 🔄 Before → After Re-Scoring
-
-A previously evaluated reference-contact scenario was re-scored after optimization.
 
 | Metric | Before | After |
 |---|:---:|:---:|
@@ -100,7 +101,7 @@ A previously evaluated reference-contact scenario was re-scored after optimizati
 | Consistency | 5/5 | **5/5** |
 | Total | 15/15 | **15/15** |
 
-**Regression check: PASS ✅**
+> **Regression check: PASS ✅**
 
 ---
 
@@ -112,6 +113,7 @@ ai-job-application-assistant-gpt-evaluation/
 ├── 📄 evaluation_sheet.md
 ├── 📄 optimization_summary.md
 ├── 📄 evaluation_rescoring.md
+├── 📕 Topic_9_Performance_Evaluation_Optimization_Assessment.pdf
 └── 📘 README.md
 ```
 
@@ -119,42 +121,14 @@ ai-job-application-assistant-gpt-evaluation/
 
 ## 📚 Deliverables
 
-| File / Resource | Purpose |
+| Resource | Purpose |
 |---|---|
-| 📊 [Evaluation Sheet](./evaluation_sheet.md) | Metrics, rubric, 10-response scoring |
+| 📊 [Evaluation Sheet](./evaluation_sheet.md) | Metrics, rubric, and 10-response scoring |
 | ⚙️ [Optimization Summary](./optimization_summary.md) | Targeted optimization and rationale |
-| 🔄 [Evaluation Rescoring](./evaluation_rescoring.md) | Before/after re-scoring and regression check |
+| 🔄 [Evaluation Rescoring](./evaluation_rescoring.md) | Before/after scoring and regression check |
+| 📕 [Assessment PDF](./Topic_9_Performance_Evaluation_Optimization_Assessment.pdf) | Final assessment document |
 | 🤖 [Custom GPT](https://chatgpt.com/g/g-6ab32eeab8c88191915986ea8efad18d-ai-job-application-assistant) | Final AI Job Application Assistant |
 | 🎥 [Loom Demonstration](https://www.loom.com/share/f617a54c269e4a01ab765f749e6a7cfe) | Topic 9 walkthrough |
-
----
-
-## 🎥 Watch the Demonstration
-
-<p align="center">
-
-<a href="https://www.loom.com/share/f617a54c269e4a01ab765f749e6a7cfe">
-<img src="https://img.shields.io/badge/▶%20WATCH%20TOPIC%209%20LOOM-625df5?style=for-the-badge&logo=loom&logoColor=white" alt="Watch Loom">
-</a>
-
-</p>
-
----
-
-## 🧩 Evaluation Challenges
-
-The main subjective challenge was distinguishing a **4/5** response from a **5/5** response when both were correct but differed slightly in wording or detail.
-
-### Resolution
-
-The predefined rubric was used first, with reasoning recorded in the evaluation notes rather than scoring based on personal preference.
-
-### Key Assumptions
-
-- Application-specific facts come from the user's provided resume and job description.
-- The Knowledge Guide remains the primary source for documented processes and rules.
-- General practical guidance is not presented as a Knowledge Guide rule.
-- No artificial failures or weak scores were introduced.
 
 ---
 
@@ -166,20 +140,13 @@ The predefined rubric was used first, with reasoning recorded in the evaluation 
 | Define Clarity metric | ✅ |
 | Define Consistency metric | ✅ |
 | Evaluate at least 10 responses | ✅ 10 |
-| Identify weak areas | ✅ No functional weakness; quality improvement identified |
+| Identify weak areas | ✅ Quality improvement identified |
 | Apply targeted optimization | ✅ |
 | Re-score previously evaluated response | ✅ |
 | Confirm no regression | ✅ 15/15 |
 | Document evaluation | ✅ |
 | Loom demonstration | ✅ |
-
----
-
-## 🔗 Project Links
-
-- 🤖 **Custom GPT:** https://chatgpt.com/g/g-6ab32eeab8c88191915986ea8efad18d-ai-job-application-assistant
-- 🎥 **Loom:** https://www.loom.com/share/f617a54c269e4a01ab765f749e6a7cfe
-- 💻 **GitHub:** https://github.com/shaikshahid777/ai-job-application-assistant-gpt-evaluation
+| Assessment PDF | ✅ |
 
 ---
 
@@ -189,6 +156,6 @@ The predefined rubric was used first, with reasoning recorded in the evaluation 
 
 **Measure → Optimize → Re-score → Validate**
 
-Made for the AI Job Application Assistant assessment.
+[⬆️ Back to Top](#-ai-job-application-assistant--gpt-evaluation)
 
 </div>
